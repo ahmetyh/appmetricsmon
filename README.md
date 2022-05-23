@@ -1,5 +1,11 @@
 ## Spring Boot Custom Metrics Monitoring with Micrometer, Prometheus & Grafana
 
+* Micrometer exposes metrics from our application
+* Prometheus stores the metric data (Time series db)
+* Grafana to visualize the data in graphs
+
+
+
 ### Start Spring Boot App and display custom metrics for prometheus
 ~~~
 curl http://localhost:8080/actuator/prometheus | grep custom
